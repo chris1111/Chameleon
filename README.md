@@ -25,10 +25,6 @@ git clone https://github.com/chris1111/Chameleon.git
 ``` bash
 cd ./Chameleon 
 make clean
-```
-
-``` bash
-cd ./Chameleon 
 make
 ```
 
