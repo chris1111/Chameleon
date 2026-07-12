@@ -8,7 +8,7 @@ on:
 jobs:
   build-macos:
     name: Chameleon
-    runs-on: self-hosted macOS-10.13
+    runs-on: macOS-10.13
     steps:
       - uses: actions/checkout@v6
 
