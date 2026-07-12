@@ -1,4 +1,4 @@
-[![Chameleon](https://github.com/chris1111/Chameleon/actions/workflows/Build.yml/badge.svg)](https://github.com/chris1111/Chameleon/actions/workflows/Build.yml)
+[![pages-build-deployment](https://github.com/chris1111/Chameleon/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Chameleon/actions/workflows/pages/pages-build-deployment)
 # Chameleon
 - Chameleon base branch Enoch
 
