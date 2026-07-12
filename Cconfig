@@ -1,0 +1,6 @@
+#
+# Enoch Configuration
+#
+mainmenu "Enoch Configuration"
+
+source "i386/Cconfig"
