@@ -1,0 +1,936 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Lucida Grande";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Garamond;
+	panose-1:2 2 4 4 3 3 1 1 8 3;}
+@font-face
+	{font-family:Futura-Medium;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Cambria",serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:.6in 1.25in .6in .75in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-size:18.0pt;font-family:"Garamond",serif'><img width=464
+height=165 src="Chameleon%202%20v0.5_files/image001.png" alt=":xnulogo.png"></span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-size:18.0pt;font-family:"Garamond",serif'><img width=171
+height=171 id="Picture 10" src="Chameleon%202%20v0.5_files/image002.png"
+alt="Bambi:Extra:Themes:Default2:logo.png"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:1.5in;text-indent:.5in'><span style='font-size:18.0pt;
+font-family:"Garamond",serif'>Chameleon 2.0 Users Guide</span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-size:18.0pt;font-family:"Garamond",serif'>Revision 0.4</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>Table of Contents</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:1.0in'><span style='font-size:14.0pt;font-family:"Arial",sans-serif'>Introduction                                                         Page
+2<br>
+Running the Installer                                          Page 3<br>
+Custom Install                                                     Page 4<br>
+Advanced Options                                              Page 6<br>
+Boot.plist configuration                                      Page 7<br>
+Custom boot.plist variables                               Page 6<br>
+Themes                                                               Page 8<br>
+Screen Layout                                                    Page 9<br>
+Boot devices                                                       Page 8<br>
+Boot prompt                                                        Page 9<br>
+Info box                                                                Page 10<br>
+Menu                                                                   Page 11<br>
+Boot display                                                        Page 12</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'><br>
+<br>
+</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>Introduction</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>Chameleon
+2.0 the latest version of the of the Chameleon boot loader  for OS X on X86
+hardware. It is an EFI boot loader that is designed to replace the Darwin and
+PC_EFI boot loaders. It has several new features including:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:-31.5pt;
+margin-bottom:10.0pt;margin-left:1.25in;text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Arial",sans-serif'>Graphical User
+Interface mode</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:-31.5pt;
+margin-bottom:10.0pt;margin-left:1.25in;text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Arial",sans-serif'>Customizable Images</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:-31.5pt;
+margin-bottom:10.0pt;margin-left:1.25in;text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Arial",sans-serif'>Support for GPT/MBR
+partition types</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:-31.5pt;
+margin-bottom:10.0pt;margin-left:1.25in;text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Arial",sans-serif'>RAID support</span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'><img width=591 height=443 id="Picture 2"
+src="Chameleon%202%20v0.5_files/image003.jpg" alt="::24.png"></span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>Chameleon
+can be installed on any BIOS bootable device such as USB flash drives, <br>
+hard drives, and of course off a cd-rom.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>Installing Chameleon</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            Chameleon
+2.0 includes it’s own installer package which will install the required boot
+loader components as well as the new themes onto a hard drive or other bootable
+device. Once the install is complete you will need to reboot your computer to
+use the new boot loader features</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>To
+get started, double click on the Chameleon Installer.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'><img width=362 height=256 id="Picture 7"
+src="Chameleon%202%20v0.5_files/image004.jpg" alt="::Desktop:Start.png"></span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Click
+“Continue” and you will be given the option of selecting,  “Install” using the
+default settings, “Customize” to pick addition options or “Change Install
+Location” to pick a different volume to install to.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'><img width=352 height=249 id="Picture 6"
+src="Chameleon%202%20v0.5_files/image005.jpg" alt="::Desktop:Picture 3.png"></span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>Custom Install</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>If
+you select Customize you have the option of selecting different themes or
+variables to be passed at boot time to the kernel</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'><img width=351 height=250 id="Picture 5"
+src="Chameleon%202%20v0.5_files/image006.jpg" alt="::Desktop:Picture 4.png"></span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt;text-indent:.5in'><span
+style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Options</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt;text-indent:.5in'><span
+style='font-family:"Arial",sans-serif'>EHCIacquire             Can fix some
+rare USB issues on boot.<br>
+            ForceWake                Cleans the hibernate image on resume<br>
+            GUI                             GUI bootloader on or of<br>
+            UHCIreset                 Reset USB for some rare USB issues on
+boot</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:1.0in;text-indent:.5in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Themes<br>
+            Default theme and Twilight are offered as for you to use </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Extras<br>
+            Kexts for AHCI and Intel PIIXATA will get installed into /Extra</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>Finishing Chameleon install</span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'><img width=339 height=242
+src="Chameleon%202%20v0.5_files/image007.jpg" alt="::Desktop:Picture 6.png"></span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>If
+you see this screen, you’re done with the install and everything has installed.
+All you need to do now is reboot and watch your computer load the new Chameleon
+and enjoy the extra features that it has over the previous versions!</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>Booting</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Chameleon
+is setup to automatically boot your operating system with the default settings
+but has the ability to pass variables to the kernel. You can pass startup
+options to the kernel by pressing any key when you see the boot logo and the
+type them to be sent to the operating system after you hit enter.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>Advanced Options</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Advanced
+startup options use the following syntax:</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'> [device]&lt;kernel&gt;
+[arguments]</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Example
+arguments include</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>device:
+rd= device name&gt;  rd=*&lt;IODeviceTree path&gt;    </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>(Device
+name sample rd=/dev/disk0s2)<br>
+(Device tree sample rd=*/PCI0@0/CHN0@0/@0:1)</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Kernel:
+Sometimes you need to use a different kernel for testing, or you need to use
+the old one after an install that didn’t work the way you wanted it too =)</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>kernel:
+kernel name    </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in;text-indent:-.5in'><span style='font-family:"Arial",sans-serif'>Example:
+mach_kernel.voodoo</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in;text-indent:-.5in'><span style='font-family:"Arial",sans-serif'>Flags
+allow you pass arguments without having to make them a permanent config
+settings. Examples of valid flags are:</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>-f          This
+forces rebuilding of extensions cache<br>
+-s         Boots into a single user command line mode<br>
+-v         Verbose, boots in text mode showing all debug info and errors<br>
+-x         Boots into safe mode</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'> &quot;Graphics
+Mode&quot;=&quot;1024x768x32&quot; :  Tells VESA to boot with this resolution,
+the x32 is bit depth and is only compatible with VESA 3.0 and up</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>rd=disk0s1:
+Tells Darwin to boot from a certain partition specified in BSD format. Disk 0
+specifies first HDD and s1 specifies first partition as 0 is the MBR.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>cpus=1: Tells
+the system how many CPUs or cores to use, useful for Core Duo users.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>platform=X86PC:
+Can be used if problems with normal booting, </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>platform=ACPI:
+another option if normal booting fails</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>-legacy -
+Boots OS X in 32bit mode rather than 64bit if 64bit is used due to a 64bit
+processor</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>idehalt=0
+- May stop stuttering</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>kernel
+debug flags </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'> (e.g.
+debug=0x144) io=0xffffffff    defined in IOKit/IOKitDebug.h)<br>
+<br>
+</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Example:
+mach_kernel rd=disk0s1 -v &quot;Graphics Mode&quot;=&quot;1024x768x32@85&quot;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>If
+the computer won't start up properly, you may be able to start it up using safe
+mode.  <br>
+Use the startup command “-x” to start up in safe mode, which ignores all cached
+driver files.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Example:
+-x -v</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Special
+booter commands:</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'> 
+?memory    Displays information about the computer's memory<br>
+  ?video     Displays VESA video modes supported by the computer's BIOS.<br>
+  ?norescan  Leaves CD-ROM rescan mode.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Additional
+useful command-line options:</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'> 
+config=&lt;file&gt;             Use an alternate Boot.plist file.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>Boot.plist</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Options
+useful in the org.chameleon.Boot.plist file:</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:7.0pt'><span style='font-family:"Arial",sans-serif'>&quot;Boot
+Graphics&quot;=Yes|No  Use graphics mode or text mode when starting.<br>
+&quot;Quiet Boot&quot;=Yes|No         Use quiet boot mode (no messages or
+prompt).<br>
+Timeout=8                           Number of seconds to pause at the boot:
+prompt.<br>
+&quot;Instant Menu&quot;=Yes          Force displaying the partition selection
+menu. <br>
+GUI=No                               Disable the GUI (enabled by default).<br>
+USBBusFix=Yes               Enable the EHCI and UHCI fixes (disabled by
+default).  EHCIacquire=Yes           Enable the EHCI fix (disabled by default).<br>
+UHCIreset=Yes                  Enable the UHCI fix (disabled by default).<br>
+Wake=No                            Disable wake up after hibernation (enabled
+by default).  ForceWake=Yes             Force using the sleepimage (disabled by
+default).  WakeImage=&lt;file&gt;                     Use an alternate sleepimage
+file (default path is <br>
+                                             /private/var/vm/sleepimage).<br>
+DropSSDT=Yes                 Skip the SSDT tables while relocating the ACPI
+tables.<br>
+DSDT=&lt;file&gt;                       Use an alternate DSDT.aml file (default
+paths are /DSDT.aml <br>
+                                              or /Extra/DSDT.aml).<br>
+Rescan=Yes                       Enable CD-ROM rescan mode.<br>
+&quot;Rescan Prompt&quot;=Yes      Prompts for enable CD-ROM rescan mode.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;color:#3366FF'>Themes</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Chameleon
+2 lets you create or customize the boot loader themes! You can edit the file in
+/Extra/Themes/Default/theme.plist. The following variables are changeable in
+the theme.plist to customize your theme.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Images
+and Color</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Chameleon
+2 has user replaceable images, and colors that you can customize.  The images
+are saved in the /Extra/Themes/Default folder. All images must be in .png
+format .</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>You
+can change the color of all the text and other widgets by using RGB color
+codes. Below is a basic color code chart but the full RGB color pallet is
+supported.<br>
+<br>
+</span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'><img width=381 height=186
+src="Chameleon%202%20v0.5_files/image008.jpg" alt="::Picture 5.png"></span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Screen
+</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Set
+the display dimensions to use when in the graphic user interface, will attempt
+to find the closest one available.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>screen_width </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>&lt;key&gt;screen_width&lt;/key&gt;<br>
+&lt;string&gt;1024&lt;/string&gt;                                 1024 pixels
+wide screen</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>screen_height </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;screen_height&lt;/key&gt;<br>
+            &lt;string&gt;768&lt;/string&gt;                                   768
+pixels high screen</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>screen_bgcolor </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>&lt;key&gt;screen_bgcolor&lt;/key&gt;<br>
+&lt;string&gt;#222334&lt;/string&gt;                          web format
+#RRGGBB</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'><img
+width=624 height=468 id="Picture 1"
+src="Chameleon%202%20v0.5_files/image009.png" alt="::Test2.png"></span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'>The Chameleon screen layout</span></p>
+
+<p class=MsoNormal align=center style='margin-right:-31.5pt;text-align:center'><span
+style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Background
+</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Set
+the position of background.png within the screen</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>background_pos_x</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>&lt;key&gt;background_pos_x&lt;/key&gt;<br>
+&lt;string&gt;-0&lt;/string&gt;                                       0 pixels
+from reverse origin along the x axis</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>background_pos_y </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>&lt;key&gt;background_pos_y&lt;/key&gt;<br>
+&lt;string&gt;-0&lt;/string&gt;                                       0 pixels
+from reverse origin along the y axis</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Logo</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Set
+the position of logo.png within the screen</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>logo_pos_x </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>&lt;key&gt;logo_pos_x&lt;/key&gt;<br>
+&lt;string&gt;0&lt;/string&gt;                                        0 pixels
+from origin along the x axis</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>logo_pos_y </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>&lt;key&gt;logo_pos_y&lt;/key&gt;<br>
+&lt;string&gt;0&lt;/string&gt;                                        0 pixels
+from origin along the y axis</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Devices
+</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Set
+the position of the device list within the screen</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>devices_pos_x </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-31.5pt;margin-bottom:
+10.0pt;margin-left:.5in'><span style='font-family:"Arial",sans-serif'>&lt;key&gt;devices_pos_x&lt;/key&gt;<br>
+&lt;string&gt;&lt;/string&gt;                                          blank to
+center on the x axis          </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>devices_pos_y </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;logo_pos_y&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;&lt;/string&gt;                                          blank
+to center on the y axis</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>devices_max_visible </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt;text-indent:.5in'><span
+style='font-family:"Arial",sans-serif'>&lt;key&gt;devices_max_visible&lt;/key&gt;            maximum
+number of devices visible</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;4&lt;/string&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>devices_icon_spacing </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt;text-indent:.5in'><span
+style='font-family:"Arial",sans-serif'>&lt;key&gt;devices_icon_spacing&lt;/key&gt;          spaces
+between the drive icons</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;20&lt;/string&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>devices_layout </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;devices_layout&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;horizontal&lt;/string&gt;                        horizontal
+or vertical list</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>devices_bgcolor </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;devices_bgcolor&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;#000000&lt;/string&gt;                          web
+format #RRGGBB</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>devices_transparency </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;devices_transparency&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;128&lt;/string&gt;                                   0
+(Opaque) -&gt; 255 (Transparent)</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Boot
+prompt </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Set
+the position of the boot prompt within the screen</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>bootprompt_pos_x </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;bootprompt_pos_x&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;&lt;/string&gt;                                          blank
+to center on the x axis                      </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>bootprompt_pos_y </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;bootprompt_pos_y&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;&lt;/string&gt;                                          blank
+to center on the y axis</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>bootprompt_width </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;bootprompt_width&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;-20&lt;/string&gt;                                    20
+pixels less than the screen's width window</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>bootprompt_height </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;bootprompt_height&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;20&lt;/string&gt;                                      20
+pixel high window</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>bootprompt_textmargin_h </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;bootprompt_textmargin_h&lt;/key&gt;    8
+pixel horizontal text margin left and right</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;8&lt;/string&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>bootprompt_textmargin_v </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;bootprompt_textmargin_v&lt;/key&gt;    4
+px vertical text margin both top and bottom</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;4&lt;/string&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>bootprompt_bgcolor </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;bootprompt_bgcolor&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;0x333445&lt;/string&gt;                        web
+format #RRGGBB</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>bootprompt_transparency </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;bootprompt_transparency&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;0&lt;/string&gt;                                        0
+(Opaque) -&gt; 255 (Transparent)</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Info
+box </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Set
+the position of the info box within the screen</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>infobox_pos_x </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;infobox_pos_x&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;&lt;/string&gt;                                          blank
+to center on the x axis</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>infobox_pos_y </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;infobox_pos_y&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;&lt;/string&gt;                                          blank
+center on the y axis</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>infobox_width </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;infobox_width&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;550&lt;/string&gt;                                   550
+pixels wide</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>infobox_height </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;infobox_height&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;406&lt;/string&gt;                                   406
+pixels high</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>infobox_bgcolor </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;infobox_bgcolor&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;#333445&lt;/string&gt;                          web
+format #RRGGBB</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>infobox_transparency </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;infobox_transparency&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;64&lt;/string&gt;                                      0
+(Opaque) -&gt; 255 (Transparent)</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Menu
+</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Set
+the position of the pop up menu within the screen</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>menu_pos_x </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;menu_pos_x&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;&lt;/string&gt;                                          center
+on the x axis</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>menu_pos_y </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;menu_pos_y&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;&lt;/string&gt;                                          center
+on the y axis</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>menu_bgcolor </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;menu_bgcolor&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;#111223&lt;/string&gt;                          web
+format #RRGGBB</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>menu_transparency </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;menu_transparency&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;0&lt;/string&gt;                                        0
+(Opaque) -&gt; 255 (Transparent)</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Boot
+Display</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>Set
+the display dimensions to use when booting the kernel, will attempt to find the
+closest one available.</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>boot_width </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;boot_width&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;1280&lt;/string&gt;                                             1280
+pixels wide screen</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif;
+color:blue'>boot_height </span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;key&gt;boot_height&lt;/key&gt;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>            &lt;string&gt;1024&lt;/string&gt;                                             1024
+pixels tall screen</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-right:-31.5pt'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-autospace:none'><span
+style='font-size:18.0pt;font-family:"Arial",sans-serif;color:blue'>Getting in
+touch</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-autospace:none'><span
+style='font-size:14.0pt;font-family:"Arial",sans-serif;color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-autospace:none'><span
+style='font-size:14.0pt;font-family:"Arial",sans-serif;color:black'>Chameleon
+homepage: </span><a href="http://chameleon.osx86.hu/"><b><span
+style='font-size:14.0pt;font-family:"Arial",sans-serif'>http://chameleon.osx86.hu/</span></b></a></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-autospace:none'><span
+style='font-size:14.0pt;font-family:"Arial",sans-serif;color:black'>E-mail : </span><span
+style='font-size:14.0pt;font-family:"Arial",sans-serif;color:blue'>http://chameleon.osx86.hu/contact</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-autospace:none'><i><span
+style='font-size:14.0pt;font-family:"Arial",sans-serif;color:black'>&nbsp;</span></i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-autospace:none'><i><span
+style='font-size:14.0pt;font-family:"Arial",sans-serif;color:black'>Hope you
+guys like the bootloader! We appreciate your feedback and support</span></i></p>
+
+</div>
+
+</body>
+
+</html>
