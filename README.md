@@ -4,7 +4,7 @@
 - Chameleon base branch Enoch
 
 
-Chameleon is a Darwin/XNU boot loader based on Apple's boot-132.
+Chameleon is a Darwin/XNU boot loader based on Apple's boot-132. Only for Bios (Legacy) Booting.
 
 Because Chameleon now uses part of GPL V2 licensed code in 2 files,
 it *must* conform to the most restrictive license that it uses that is the:
