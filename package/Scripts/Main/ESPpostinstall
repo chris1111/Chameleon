@@ -256,7 +256,6 @@ WRITE_STAGE2() {
     if  [ $InstallBootloader = "1" ];then
         echo -e "${mainLine}\nWRITING STAGE 2:"
         cp -R "${i386Dir}/${stage2Loader}" "${choicedVolume}/"
-        chflags hidden "${choicedVolume}/${stage2Loader}"
         echo "Stage 2 (${stage2Loader}) written to ${choicedVolume}."
     fi
 }
