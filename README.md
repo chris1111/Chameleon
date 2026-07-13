@@ -1,4 +1,4 @@
-[![pages-build-deployment](https://github.com/chris1111/Chameleon/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Chameleon/actions/workflows/pages/pages-build-deployment) [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://github.com/chris1111/Chameleon/blob/main/LICENSE)
+[![pages-build-deployment](https://github.com/chris1111/Chameleon/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Chameleon/actions/workflows/pages/pages-build-deployment) [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://github.com/chris1111/Chameleon/blob/main/GPL_V2_LICENSE)
 # Chameleon <img alt="logo-orig" src="https://github.com/user-attachments/assets/ac572af4-0a55-404e-911b-80b85d9c1ec1" />
 
 - Chameleon base branch Enoch
