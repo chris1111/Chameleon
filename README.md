@@ -31,3 +31,4 @@ make
 
 ### Look in `sym` folder, everythings is building there.
 - `make pkg` If you want to build Package.
+- Note: the Build Package is only in English.
