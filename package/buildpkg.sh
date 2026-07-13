@@ -114,7 +114,7 @@ choice_group_items[0]=""
 choice_group_exclusive[0]=""
 
 # Package name
-declare -r packagename="Enoch"
+declare -r packagename="Chameleon"
 
 # Package identifiers
 declare -r chameleon_package_identity="org.chameleon"
@@ -1460,15 +1460,7 @@ makedistribution ()
 #   Make the translation
     echo ""
     echo "========= Translating Resources ========"
-    (cd "${PKGROOT}" &&  PERLLIB=${PKGROOT}/bin/po4a/lib                  \
-        bin/po4a/po4a                                                     \
-        --package-name 'Chameleon'                                        \
-        --package-version "${CHAMELEON_VERSION}-r${CHAMELEON_REVISION}"   \
-        --msgmerge-opt '--lang=$lang'                                     \
-        --variable PODIR="po"                                             \
-        --variable TEMPLATES_DIR="Resources/templates"                    \
-        --variable OUTPUT_DIR="${PKG_BUILD_DIR}/${packagename}/Resources" \
-        ${PKGROOT}/po4a-chameleon.cfg)
+    echo "============ Only English =============="
 
     # Copy common files in english localisation directory
     ditto --noextattr --noqtn "${PKGROOT}/Resources/common" "${PKG_BUILD_DIR}/${packagename}/Resources/en.lproj"
