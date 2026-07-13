@@ -5,6 +5,7 @@
 
 
 Chameleon is a Darwin/XNU boot loader based on Apple's boot-132. Only for Bios (Legacy) Booting.
+- Booting Mac OS X 10.6 to macOS 10.14
 
 Because Chameleon now uses part of GPL V2 licensed code in 2 files,
 it *must* conform to the most restrictive license that it uses that is the:
