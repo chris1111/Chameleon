@@ -1518,4 +1518,5 @@ makedistribution
 
 #   Remove package stuff
     rm -rf "${SYMROOT}/package"
+    Open "${SYMROOT}"
 #   End
