@@ -9,6 +9,7 @@
 	<license file="License.rtf" sla="EA0401"/>
 	<readme file='Description.html'/>
 	<conclusion file="Conclusion.html"/>
+        <background-darkAqua file="background" alignment="topleft" scaling="no"/>
 	<background file='background' alignment='topleft' scaling='no'/>
 
 	<title>Chameleon_Package_Title</title>
